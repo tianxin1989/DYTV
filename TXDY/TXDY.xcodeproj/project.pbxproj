@@ -12,16 +12,28 @@
 		C10E9DD91EBC484C001A4E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10E9DD71EBC484C001A4E52 /* Main.storyboard */; };
 		C10E9DDB1EBC484C001A4E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10E9DDA1EBC484C001A4E52 /* Assets.xcassets */; };
 		C10E9DDE1EBC484C001A4E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10E9DDC1EBC484C001A4E52 /* LaunchScreen.storyboard */; };
+		C11271B81EBC717700B28316 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11271B71EBC717700B28316 /* HomeViewController.swift */; };
+		C11271C31EBC855F00B28316 /* UIBarButtonItem+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11271C21EBC855F00B28316 /* UIBarButtonItem+Extention.swift */; };
+		C11271C51EC070E600B28316 /* HBConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11271C41EC070E600B28316 /* HBConst.swift */; };
+		C11271C71EC073D900B28316 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11271C61EC073D900B28316 /* PageTitleView.swift */; };
+		C1FE14B21EC1711D0019022E /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE14B11EC1711D0019022E /* UIColor-Extension.swift */; };
+		C1FE14B41EC174DF0019022E /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE14B31EC174DF0019022E /* NSDate-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C10E9DD01EBC484C001A4E52 /* TXDY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXDY.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C10E9DD31EBC484C001A4E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C10E9DD51EBC484C001A4E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C10E9DD31EBC484C001A4E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
+		C10E9DD51EBC484C001A4E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		C10E9DD81EBC484C001A4E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C10E9DDA1EBC484C001A4E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C10E9DDD1EBC484C001A4E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C10E9DDF1EBC484C001A4E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11271B71EBC717700B28316 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C11271C21EBC855F00B28316 /* UIBarButtonItem+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extention.swift"; sourceTree = "<group>"; };
+		C11271C41EC070E600B28316 /* HBConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBConst.swift; sourceTree = "<group>"; };
+		C11271C61EC073D900B28316 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		C1FE14B11EC1711D0019022E /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		C1FE14B31EC174DF0019022E /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,212 @@
 		C10E9DD21EBC484C001A4E52 /* TXDY */ = {
 			isa = PBXGroup;
 			children = (
-				C10E9DD31EBC484C001A4E52 /* AppDelegate.swift */,
-				C10E9DD51EBC484C001A4E52 /* ViewController.swift */,
+				C11271A31EBC70F100B28316 /* Classes */,
 				C10E9DD71EBC484C001A4E52 /* Main.storyboard */,
 				C10E9DDA1EBC484C001A4E52 /* Assets.xcassets */,
 				C10E9DDC1EBC484C001A4E52 /* LaunchScreen.storyboard */,
 				C10E9DDF1EBC484C001A4E52 /* Info.plist */,
 			);
 			path = TXDY;
+			sourceTree = "<group>";
+		};
+		C11271A31EBC70F100B28316 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C11271A91EBC70F100B28316 /* Home */,
+				C11271AE1EBC70F100B28316 /* Live */,
+				C11271A51EBC70F100B28316 /* Follow */,
+				C11271B91EBC7B5300B28316 /* Found */,
+				C11271B31EBC70F100B28316 /* Profile */,
+				C11271B21EBC70F100B28316 /* Main */,
+				C11271A41EBC70F100B28316 /* Category */,
+				C11271AD1EBC70F100B28316 /* Lib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C11271A41EBC70F100B28316 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C11271C21EBC855F00B28316 /* UIBarButtonItem+Extention.swift */,
+				C1FE14B11EC1711D0019022E /* UIColor-Extension.swift */,
+				C1FE14B31EC174DF0019022E /* NSDate-Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C11271A51EBC70F100B28316 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				C11271A61EBC70F100B28316 /* Controller */,
+				C11271A71EBC70F100B28316 /* Modal */,
+				C11271A81EBC70F100B28316 /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		C11271A61EBC70F100B28316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C11271A71EBC70F100B28316 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		C11271A81EBC70F100B28316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C11271A91EBC70F100B28316 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C11271AA1EBC70F100B28316 /* Controller */,
+				C11271AB1EBC70F100B28316 /* Modal */,
+				C11271AC1EBC70F100B28316 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C11271AA1EBC70F100B28316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C11271B71EBC717700B28316 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C11271AB1EBC70F100B28316 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		C11271AC1EBC70F100B28316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C11271C61EC073D900B28316 /* PageTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C11271AD1EBC70F100B28316 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C11271AE1EBC70F100B28316 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				C11271AF1EBC70F100B28316 /* Controller */,
+				C11271B01EBC70F100B28316 /* Modal */,
+				C11271B11EBC70F100B28316 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		C11271AF1EBC70F100B28316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C11271B01EBC70F100B28316 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		C11271B11EBC70F100B28316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C11271B21EBC70F100B28316 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C10E9DD31EBC484C001A4E52 /* AppDelegate.swift */,
+				C10E9DD51EBC484C001A4E52 /* ViewController.swift */,
+				C11271C41EC070E600B28316 /* HBConst.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C11271B31EBC70F100B28316 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C11271B41EBC714F00B28316 /* Controller */,
+				C11271B51EBC714F00B28316 /* Modal */,
+				C11271B61EBC714F00B28316 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C11271B41EBC714F00B28316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C11271B51EBC714F00B28316 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		C11271B61EBC714F00B28316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C11271B91EBC7B5300B28316 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				C11271BA1EBC7B5300B28316 /* Controller */,
+				C11271BB1EBC7B5300B28316 /* Modal */,
+				C11271BC1EBC7B5300B28316 /* View */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		C11271BA1EBC7B5300B28316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C11271BB1EBC7B5300B28316 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		C11271BC1EBC7B5300B28316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +306,7 @@
 				TargetAttributes = {
 					C10E9DCF1EBC484C001A4E52 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11271C71EC073D900B28316 /* PageTitleView.swift in Sources */,
+				C11271C51EC070E600B28316 /* HBConst.swift in Sources */,
+				C1FE14B41EC174DF0019022E /* NSDate-Extension.swift in Sources */,
 				C10E9DD61EBC484C001A4E52 /* ViewController.swift in Sources */,
+				C11271C31EBC855F00B28316 /* UIBarButtonItem+Extention.swift in Sources */,
 				C10E9DD41EBC484C001A4E52 /* AppDelegate.swift in Sources */,
+				C1FE14B21EC1711D0019022E /* UIColor-Extension.swift in Sources */,
+				C11271B81EBC717700B28316 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +477,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TXDY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveonline.TXDY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +493,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TXDY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveonline.TXDY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +523,7 @@
 				C10E9DE41EBC484C001A4E52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
